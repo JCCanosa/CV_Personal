@@ -53,11 +53,27 @@ li{
     text-transform: uppercase;
 }
 
-.infoLateral{
-    position: absolute;
-    max-width: 13%;
-    width: 90%; 
-    
+@media (min-width: 768px) {
+    .infoLateral{
+        position: absolute;
+        width: 280px;
+        height:max-content;
+        padding-right: 15px;
+        border-right: 2px solid black;
+    }
+}
+
+.fotoPerfil{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 115px;
+    margin: 0 auto;
+}
+
+.fotoPerfil img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
 }
 
 .infoLateral h2{
@@ -94,19 +110,21 @@ li{
     border-bottom: 1px solid var(--negro);
 }
 
-
 .icono{
     width: 2rem;
 }
 
-.contenido{
-    position: relative;
-    left: 15%;
-    max-width: 87%;
-    width: 90%;
-    padding-left: 2rem;
-    border-left: 2px solid var(--negro);
+
+@media (min-width: 768px ) {
+    .contenido{
+        position: relative;
+        margin-left: 300px;
+    }  
 }
+
+
+
+
 
 
 
