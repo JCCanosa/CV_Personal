@@ -122,6 +122,32 @@ li{
     }  
 }
 
+.lista-proyectos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: justify;
+}
+
+.lista-proyectos li{
+    list-style: none;
+}
+
+.botones-proyectos{
+    display: grid;
+}
+
+.botones-proyectos a{
+    cursor:default;
+}
+
+.botones-proyectos button{
+    color: var(--primario);
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
 
 
 
